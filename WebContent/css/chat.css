@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  background-attachment:fixed;
+  background-size: 100%;
+}
+
+.nav{
+  height: 90px;
+}
+
+.container {
+  padding-right: 130px;
+  padding-left: 130px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.online-people{
+  float: left;
+  width: 28%;
+  background-color: rgb(254,255,255);
+  height: 560px;
+  border-radius: 3%;
+  margin-right: 5%;
+  padding-top: 8px;
+  border: 1px solid;
+  border-color: rgb(31,150,173);
+}
+
+.online-people-top{
+  height: 40px;
+  font-family: Cursive;
+  font-size: 23px;
+  color: #585858;
+  margin-left: 12px;
+}
+
+.online-people-main{
+  height: 510px;
+  border-top: 2px solid;
+  border-color: rgb(219,220,221);
+  overflow-y:scroll;
+}
+
+.chat-window{
+  float: left;
+  width: 67%;
+  background-color: rgb(254,255,255);
+  height: 560px;
+  border-radius: 2%;
+  border: 1px solid;
+  border-color: rgb(31,150,173);
+}
+
+.chat-top{
+  height: 70px;
+  padding-top: 20px;
+}
+
+.chat-top-headline{
+  margin-left: 30px;
+  font-family: Cursive;
+  font-size: 28px;
+  color: #585858;
+}
+
+.chat-paid{
+  width: 100%;
+  background-color: rgb(244,250,249);
+  height: 350px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: rgb(219,220,221);
+  padding: 20px;
+  overflow-y:scroll
+}
+
+.chat-txt{
+  width: 100%;
+  border: 0px;
+  height: 125px;
+  padding-right: 110px;
+  overflow-y:scroll
+}
+
+.btn-send{
+  width: 3%;
+  position: absolute;
+  right: 150px;
+  top: 550px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

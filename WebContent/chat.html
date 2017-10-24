@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/chat.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/chat.css">
+</head>
+<body style="background-image: url(img/background.jpg);" onload="GetOnlineList();">
+  <div class="nav"></div>
+  <div class="container">
+    <div class="online-people" >
+      <div class="online-people-top">
+        online-people
+      </div>
+      <div id="online-user-List" class="online-people-main">
+      </div>
+    </div>
+
+    <div class="chat-window">
+      <div class="chat-top">
+        <span class="chat-top-headline">Self-high Chat Room</span>
+      </div>
+      <div class="chat-paid" id="divContent">
+      </div>
+
+      <div class="chat-input">
+        <textarea autofocus id="txtContent" class="chat-txt"></textarea>
+        <img id="send" src="img/send.png" class="btn-send"/>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

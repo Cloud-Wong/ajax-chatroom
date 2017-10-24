@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+#divLogin{
+    margin: 100px auto 100px auto;
+    width: 500px;
+}
+
+.content{
+    margin: 10px auto 10px auto;
+    width:300px;   
+}
+
+.btnCenter{
+    margin: 10px auto 10px auto;
+    width:150px;
+}
+
